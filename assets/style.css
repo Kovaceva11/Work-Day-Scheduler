@@ -37,6 +37,11 @@ body {
     height: 80px;
     border-top: 1px solid white;
   }
+
+  .row:hover {
+    font-size: 20px;
+    transition: all .3s ease-in-out;
+  }
   /* Styles for  hour */
   .hour {
     background-color: #ffffff;
@@ -67,7 +72,7 @@ body {
     color: white;
   }
   /* Styles for Save Button hover */
-  .saveBtn i:hover {
+  .saveBtn:hover {
     font-size: 20px;
     transition: all .3s ease-in-out;
   }
