@@ -1,6 +1,4 @@
-// Moment declaration for day and time 
-// moment();
-// $("#currentDay").text(moment().format('dddd MMMM Do YYYY, h:mm a'));
+
 setInterval(function () {
     $('#currentDay').html(moment().format('dddd MMMM Do YYYY, h:mm:ss a'))
 }, 1000);
@@ -50,24 +48,3 @@ function changeBackGround() {
     timeCheck = $(this).attr("class").split(" ")[1]
     $(this).attr("class", "col-10")
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

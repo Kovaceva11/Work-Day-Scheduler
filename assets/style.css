@@ -19,7 +19,7 @@ body {
     background-color: transparent;
     color: black;
     border-radius: 0;
-    border-bottom: 10px solid black;
+    border-bottom: 10px solid black;    
   }
   /* Styles for Description */
   .description{
@@ -31,22 +31,18 @@ body {
     border-radius: 15px;
   }
   
-   /* Styles for  row */
+  /* Styles for  row */
   .row {
     white-space: pre-wrap;
     height: 80px;
     border-top: 1px solid white;
-  }
-
-  .row:hover {
-    font-size: 20px;
-    transition: all .3s ease-in-out;
+    
   }
   /* Styles for  hour */
   .hour {
     background-color: #ffffff;
     color: #000000;
-    border-top: 1px dashed #000000;
+    border-top: 1px dashed #000000;    
   }
   /* Styles for past time */
   .past {
@@ -76,6 +72,12 @@ body {
     font-size: 20px;
     transition: all .3s ease-in-out;
   }
+
+  .row:hover {
+    font-size: 20px;
+    transition: all .3s ease-in-out;
+  }
+  
 /* Styles for Save icon */
   .fa-save {
       padding: 10px;
@@ -86,3 +88,5 @@ body {
   .container {
     margin-bottom: 10%;
   }
+
+
