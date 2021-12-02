@@ -1,8 +1,10 @@
 
+// Date & Time display in the header
 setInterval(function () {
     $('#currentDay').html(moment().format('dddd MMMM Do YYYY, h:mm:ss a'))
 }, 1000);
 
+// Javascript & JQuery to create the time blocks within container element, add styling, 
 const containerEl = $(".container")
 const currentHour = parseInt(moment().format("HH"))
 
@@ -33,6 +35,7 @@ times.forEach((value, index) => {
     containerEl.append(newRow)
 });
 
+// function to save user's Tasks into local storage
 function textSave() {
     let value = $(this).prev().val()
     let key = $(this).prev().prev().text()
@@ -40,9 +43,11 @@ function textSave() {
     localStorage.setItem(key, value)
 }
 
+// Change background color of the block based on time 
 function changeBackGroundBack() {
     $(this).attr("class", "col-10 " + timeCheck)
 }
+
 
 function changeBackGround() {
     timeCheck = $(this).attr("class").split(" ")[1]
