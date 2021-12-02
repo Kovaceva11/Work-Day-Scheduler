@@ -6,7 +6,7 @@ A very simple application for scheduling tasks throughout your day. Stay tuned f
 https://kovaceva11.github.io/Work-Day-Scheduler/
 
 ## How It Works:
-To begin planning your work day, enter your task(s) into the "Insert Take Here" field and click the save button to the right. This will save your task(s) into your local storage, for easy referencing throughout the day. 
+To begin planning your work day, enter your task(s) into the "Insert Take Here" field and click the save button to the right. This will save your task(s) into your local storage. For easy referencing throughout the day. 
 
 Timeblocks that are in the Present hour of the day, will be colored Red. Timeblocks that are in the future will be colored Green.
 Timeblocks in the past are Grey. 
